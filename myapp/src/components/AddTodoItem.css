@@ -1,0 +1,39 @@
+.add-todo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  
+ 
+  .add-todo-container input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .add-todo-container input[type="text"]:focus {
+    border-color: #007BFF;
+  }
+  
+  
+  .add-todo-container button {
+    padding: 8px 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-todo-container button:hover {
+    background-color: #0056b3;
+  }
+  
